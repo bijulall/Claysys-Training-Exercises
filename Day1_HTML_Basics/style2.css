@@ -1,0 +1,16 @@
+header{
+    background-color: blueviolet;
+    color:aliceblue;
+    text-align: center;
+    font-size: 40px;
+
+}
+nav{
+    float: left;
+    width:30%
+}
+article{
+    float: left;
+    width:70%
+
+}

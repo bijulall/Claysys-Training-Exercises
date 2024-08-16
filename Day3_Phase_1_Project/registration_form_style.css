@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(183, 208, 214);
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width:38%;
+    margin:30px auto;
+    background-color:#f1f1f1;
+    position:relative;
+    padding: 5px;
+    box-sizing: border-box;
+    max-width: 100%;
+    border-bottom: 8px solid #cf5f55;
+}
+.main{
+    padding: 20px 40px;
+    margin:8px;
+}
+#pagetitle{
+    font-size: 24px;
+    width:30%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-size:11px ;
+}
+label{
+    font-size: 11px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-row{
+    margin-bottom: 12px;
+}
+input[type="text"],select{
+    width:43%;
+    border: .8px solid #ccc;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    padding-left: 8px;
+    
+}
+
+.date-section input{
+    width:10%;
+    box-sizing: border-box;   
+}
+
+.passport-group,.date-section,.name-section{
+    display: flex;  
+}
+
+.date-section select{
+    width:18%;
+}
+
+#doa-hour{
+    width:18%;
+}
+#room_no,#lengthofstay{
+    width:43%;
+}
+.logo{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height:180px;
+        width:180px;
+}
+input::placeholder{
+    color:gray;
+    opacity: 1;
+    font-size: 11px;
+    padding: 4px;
+
+}
+select{
+    color:gray;
+    font-size: 11px;
+    
+}
+#nationality{
+    font-style: italic
+}
+
+.date-section input::placeholder,#lengthofstay::placeholder{
+    font-style: italic;
+}
+#date-section1 input::placeholder{
+    font-style: normal;
+}
+

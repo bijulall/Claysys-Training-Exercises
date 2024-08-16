@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Registration Form</title>
+    <link rel="stylesheet"href="registration_form_style.css">
+    <script src="https://kit.fontawesome.com/f496206a35.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <img src="logo.jpeg" alt="page design"class="logo" >
+    <div class="main">
+        <div>
+            <header>
+                <h1 id="pagetitle">Guest Registration Form</h1>
+            </header>
+        </div>
+        <form>
+
+                <!-- Room and Bed Number -->
+
+            <div class="form-row">
+                <label>Room & Bed Number:</label>
+                <div class="name-section">
+                    <input type="text" id="room_no" name="room_no">
+                </div>
+            </div>
+
+                 <!-- Full name -->
+
+            <div class="form-row">
+                <label for="firstname">Full Name (as appears in Travel Documents/Passport):</label>
+                <div class="name-section">
+                    <input type="text" id="firstname" name="full_name" placeholder="First Name">
+                    <input type="text" id="lastname" name="full_name" placeholder="Last Name">
+                </div>
+            </div>
+
+                <!-- Date of birth -->
+
+            <div class="form-row">
+                <label for="dob-month">Date of Birth</label>
+                <div class="date-section" id="date-section1">
+                    <input type="text" id="dob-month" name="dob-month" placeholder="Month">
+                    <input type="text" id="dob-day" name="dob-day" placeholder="Day">
+                    <input type="text" id="dob-year" name="dob-year" placeholder="Year">
+                    <i class="fa fa-calendar" aria-hidden="true"style="font-size:18px"></i>
+                </div>
+            </div>
+
+                <!-- Passport number and nationality -->
+
+            <div class="passport-group">
+                <label for="passport_no">Passport Number</label>
+                <label for="nationality">Nationality</label>
+            </div>
+            <div class="form-row passport-group">
+                <input type="text" id="passport_no" name="passport_no" >
+                <select id="nationality" name="nationality">
+                    <option value="">Please Select</option>
+                    <option value="india">India</option>
+                    <option value="United States">United States</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Brazil">Brazil</option>
+                </select>
+            </div>
+            
+                <!-- Date of Expiry -->
+
+            <div class="form-row">
+                <label>Date of Expiry</label>
+                <div class="date-section">
+                    <input type="text" id="doe-month" name="doe-month" placeholder="Month">
+                    <input type="text" id="doe-day" name="doe-day" placeholder="Day">
+                    <input type="text" id="doe-year" name="doe-year" placeholder="Year">
+                    <i class="fa fa-calendar" aria-hidden="true"style="font-size:18px"></i>
+                </div>
+            </div>
+
+                <!-- Passport2 number and nationality -->
+
+            <div class="passport-group">
+                    <label for="passport_no2">Passport 2 Number</label>
+                    <label for="nationality-2">Nationality</label>
+            </div>
+            <div class="form-row passport-group">
+                <input type="text" id="passport_no2" name="passport_no2" >
+                <select id="nationality-2" name="nationality-2">
+                    <option value="">Please Select</option>
+                    <option value="india">India</option>
+                    <option value="United States">United States</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Brazil">Brazil</option>
+                </select>
+            </div>
+
+                <!-- Date of Expiry -->
+
+            <div class="form-row">
+                <label>Date of Expiry</label>
+                <div class="date-section">
+                    <input type="text" id="doe-month-2" name="doe-month-2" placeholder="Month">
+                    <input type="text" id="doe-day-2" name="doe-day-2" placeholder="Day">
+                    <input type="text" id="doe-year-2" name="doe-year-2" placeholder="Year">
+                    <i class="fa fa-calendar" aria-hidden="true"style="font-size:18px"></i>
+                </div>
+            </div>
+
+                <!-- Date of Arrival -->  
+
+            <div class="form-row">
+                <label>Date of Arrival</label>
+                <div class="date-section">
+                    <input type="text" id="doa-month" name="doa-month" placeholder="Month">
+                    <input type="text" id="doa-day" name="doa-day" placeholder="Day">
+                    <input type="text" id="doa-year" name="doa-year" placeholder="Year">
+                    <i class="fa fa-calendar" aria-hidden="true"style="font-size:18px;padding-right: 20px;;"></i>
+                    <input type="text" id="doa-hour" name="doa-hour" placeholder="Hour Minutes">
+                    <select id="ampm" name="ampm">
+                        <option value="">AM/PM</option>
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                </div>
+            </div>
+
+                <!-- Intented Length of Stay -->
+
+            <div class="form-row">
+                <label>Intented Length of Stay:</label>
+                <input type="text" id="lengthofstay" placeholder="Day"><br>
+            </div>  
+
+        </form>
+
+
+
+    </div>
+
+</div>
+</body>
+</html>
