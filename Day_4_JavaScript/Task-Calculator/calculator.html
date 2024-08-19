@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc_style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row-group">
+            <input id="display" type="text">
+        </div>
+        <div class="row-group">
+            <button class="menu-button"  onclick="clearDisplay('AC')">AC</button>
+            <button class="menu-button"  onclick="backspace('DEL')">DEL</button>
+            <button class="menu-button"  onclick="addToDisplay('%')">%</button>
+            <button class="menu-button" onclick="addToDisplay('/')">/</button>
+        </div>
+        <div class="row-group">
+            <button onclick="addToDisplay('7')">7</button>
+            <button onclick="addToDisplay('8')">8</button>
+            <button onclick="addToDisplay('9')">9</button>
+            <button class="menu-button" onclick="addToDisplay('*')">*</button>
+            
+        </div>
+        <div class="row-group">
+            <button onclick="addToDisplay('4')">4</button>
+            <button onclick="addToDisplay('5')">5</button>
+            <button onclick="addToDisplay('6')">6</button>
+            <button class="menu-button" onclick="addToDisplay('-')">-</button>
+        </div>
+        <div class="row-group">
+            <button onclick="addToDisplay('1')">1</button>
+            <button onclick="addToDisplay('2')">2</button>
+            <button onclick="addToDisplay('3')">3</button>
+            <button class="menu-button"  onclick="addToDisplay('+')">+</button>
+        </div>
+        <div class="row-group">
+            <button onclick="addToDisplay('00')">0</button>
+            <button onclick="addToDisplay('0')">0</button>
+            <button onclick="addToDisplay('.')">.</button>
+            <button id="total" class="menu-button"  onclick="calculate('=')">=</button>
+        </div>
+    </div>
+  
+    <script src="calc_script.js"></script>
+</body>
+</html>

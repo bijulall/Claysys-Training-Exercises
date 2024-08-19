@@ -1,0 +1,111 @@
+.container{
+    width:100%;
+    background-color: rgb(134, 157, 164);
+    padding: 10px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.main{
+    width:50%;
+    max-width:540px;
+    margin:100px auto 20px;
+    background-color: rgb(46, 24, 67);
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.main h1{
+    color:azure;
+    
+    align-items: center;
+    margin-bottom: 20px;
+}
+.row_group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    border:none;
+    outline: none;
+    background:transparent;
+    padding: 10px;
+    font-weight: 14px;
+    font-size: 18px;
+
+}
+.input-list ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    margin-bottom: 12px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+
+}
+#add_button{
+    border:none;
+    padding: 16px 50px;
+    background-color: #ff5959;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+
+}
+
+ul li{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    margin-top: 1rem;
+    position: relative;
+    color: white;
+}
+
+ul li::before{
+    content: "";
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    background-image: url("./unchecked.png");
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+    left: 1rem;
+    bottom: 0.50rem;
+}
+
+.checked{
+    color: rgb(241, 239, 239);
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url("./checked.png");
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    margin-right: 3rem;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    border-radius: 20%;
+}
