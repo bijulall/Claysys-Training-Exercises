@@ -1,0 +1,143 @@
+/* styling for the overall form layout */
+
+.container{
+    width:37%;
+    margin:2px auto;
+    background-color:#f1f1f1;
+    position:relative;
+    box-sizing: border-box;
+    max-width: 100%;
+    border-bottom: 8px solid #cf5f55;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* styling for the main content */
+
+.main{
+    padding: 10px 40px;
+    margin:8px;
+}
+/* styling for the page title */
+
+#page-title{
+    font-size: 24px;
+    width:30%;
+}
+/* styling for the form inside container */
+.main-form{
+    display: flex;
+    flex-direction: column;
+    font-size:11px ;
+
+}
+
+/* styling for labels inside the form */
+.labels{
+    font-size: 11px;
+    margin-bottom: 5px;
+    display: block;
+
+}
+/* styling for labels inside the passport group section */
+.passport-group label{
+    font-size: 11px;
+    margin-bottom: 5px;
+    display: block;
+    width: 50%;
+}
+.form-row{
+    margin-bottom: 12px;
+}
+/* styling for text inputs and select elements */
+
+input[type="text"],select{
+    width:43%;
+    border: .8px solid #ccc;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    padding-left: 8px;
+}
+/* styling for text inputs elements inside datesection */
+
+.date-section input{
+    width:10%;
+    box-sizing: border-box;   
+}
+
+.passport-group,.date-section,.name-section{
+    display: flex;  
+}
+
+.date-section select{
+    width:16%;
+}
+
+#arrivalTime{
+    width:17%;
+}
+#room_no,#lengthofstay{
+    width:43%;
+}
+/* styling for the logo image */ 
+
+.logo{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height:180px;
+        width:180px;
+
+}
+/* styling for the placeholder text inside input */
+input::placeholder{
+    color:gray;
+    opacity: 1;
+    font-size: 11px;
+    padding: 4px;
+
+}
+/* Styling for select elements */
+select{
+    color:gray;
+    font-size: 11px;
+    
+}
+/* Italicizes the text inside the nationality input */
+#nationality{
+    font-style: italic
+}
+/* Italicizes the placeholder text inside the date section inputs and length of stay input */
+
+.date-section input::placeholder,#lengthofstay::placeholder{
+    font-style: italic;
+}
+/* Normal styling for placeholder text in date-section1 */ 
+
+#date-section1 input::placeholder{
+    font-style: normal;
+}
+/* Styling for error messages */
+.errors{
+    color: red;
+    z-index: 1;
+}
+/* Styling for success message spans  */
+.successSpan{
+    visibility: hidden;
+    margin-left: 10px;
+}
+/* Styling for error message spans */
+
+.errorSpan{
+    visibility: visible;
+    color:red;
+    z-index: 1;
+}
+/* Styling for the submit button when enabled */
+
+#submitButton:enabled{
+    background-color: #cf5f55;
+   
+}
