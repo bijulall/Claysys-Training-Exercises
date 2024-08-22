@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginform.css">
+</head>
+<body class="background">
+
+    <div class="container">
+        <div class="headerSection rowSection">
+            <div><h1>Welcome Back</h1></div>
+            <div><h2>Login to Your Account</h2></div> 
+        </div>
+        <form>
+            <form id="loginForm">
+                <div class="formSection">
+                    <label>Email Address:</label>
+                    <input type="email" id="email" placeholder="" class="inputfield">
+                    <div  class='errorMessage' id="emailMessage"></div>
+                    
+                </div>
+                <div class="formSection">
+                    <label >Password:</label>
+                    <input type="password" id="password" placeholder=""  class="inputfield">
+                    <div  class='errorMessage'id="passwordMessage"></div>
+                </div>
+                <div class="formoptions">
+                    <p>
+                        <input type="checkbox" id="remember-me"> Remember Me
+                    <p>
+                    <p><a href="#" id="forgotpassword">Forgot Password?</a></p>
+                </div>
+                <div class="loginSection">
+                    <button type="submit" id="loginButton">Login</button>
+                </div>
+                <p id="signup">Don't have an account? <a href="#">Sign Up</a></p>
+            </form>
+
+    </div>
+ 
+    
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<script src="loginform.js"></script>   
+</body>
+</html>

@@ -1,0 +1,112 @@
+
+.background{
+    background-image: url(background2.jpg);
+    background-size: cover
+}
+/* styling for the overall form layout */
+
+.container {
+    margin:10px auto;
+    /* background-color: #f4f6fa; */
+    background-color: rgb(244, 246, 250,.9);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+/* styling for the page title */
+
+.headerSection {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.loginSection{
+    text-align: center;
+    padding:5px;
+}
+
+#signup {
+    text-align: center;
+    color: #d42b2b;
+    margin-bottom: 20px;
+}
+/* styling for the form inside container */
+.formSection {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+/* styling for text inputs  */ 
+
+.formSection input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+}
+/* styling for labels inside the form */
+
+label {
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    padding: 0 10px;
+    cursor: text;
+    transition: top 0.2s ease-in-out;
+    background: rgb(244, 246, 250,.9);
+    pointer-events: none;
+
+}
+.active{
+    top:-20px;
+}
+.inputfield{
+   padding: 12px 10px;
+   border: 2px solid #ffff;
+
+}
+.inputfield :focus{
+    outline: none;
+}
+/* Styling for the login button  */
+#loginButton{
+    padding: 10px 50px;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#loginButton:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+}
+/* Styling for error messages */
+.errorMessage{
+    color:red;
+    font-size: 12px;
+}
+.inputError{
+    border: 2px solid red !important;
+    
+}
+ /* for responsive Design */
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+
