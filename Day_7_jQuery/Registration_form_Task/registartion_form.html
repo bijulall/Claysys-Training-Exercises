@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration_from.css">
+    <script src="https://kit.fontawesome.com/f496206a35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+</head>
+<body class="full">
+    <div class="container">
+        <div class="headerSection">
+            <h1 class="header">Create Your Account</h1>
+            <p class="subheader">Join us today and start your journey!</p>
+        </div>
+        <div class="progress">
+            <div class="progressStep" datasection="1"><a href="#personalInfo">Personal information</a></div>
+            <div class="progressStep" datasection="2"><a href="#contactInfo">Contact information</a></div>
+            <div class="progressStep" datasection="3"><a href="#addressInfo">Address</a></div>
+            <div class="progressStep" datasection="4"><a href="#accountInfo">Account information</a></div>
+        </div>
+        <form id="signupForm">
+            <!-- Personal Information -->
+            <div class="formSection" id="personalInfo">
+                <h2>Personal information</h2>
+                <div class="inputgroup">
+                    <label  for="firstname" class="labels">First name:</label>
+                    <input type="text" id="firstname" class="inputfield">
+                </div>
+                <div class="inputgroup">
+                    <label for="lastname" class="labels">Last name:</label>
+                    <input type="text" id="lastname"  class="inputfield">
+                </div>
+                <div class="inputgroup">
+                    <label for="datepicker" class="labels" for="dob">Date of birth:</label>
+                    <input type = "text" id = "datepicker" class="inputfield">
+                    <i class="fa fa-calendar" aria-hidden="true"style="font-size:30px" id="calendarIcon"></i>
+                </div>
+                <div class="inputgroup">
+                    <p class="radioButtons">Gender:<p>
+                    <div class="genderoptions">
+                        <p class="radioButtons"><input type="radio" name="gender" > Male</p>
+                        <p class="radioButtons"><input type="radio"name="gender"  > Female</p>
+                        <p class="radioButtons"><input type="radio" name="gender" > Other</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Information -->
+            <div class="formSection" id="contactInfo">
+                <h2>Contact Information</h2>
+                <div class="inputgroup">
+                    <label for="phone" class="labels">Phone number:</label>
+                    <input type="text" id="phone" name="phone" class="inputfield" placeholder="9123456789">
+                </div>
+                <div class="inputgroup">
+                    <label for="email" class="labels">Email address:</label>
+                    <input type="email" id="email" class="inputfield">
+                </div>
+            </div>
+            <!-- Address -->
+            <div class="formSection" id="addressInfo">
+                <h2>Address</h2>
+                <div class="inputgroup">
+                    <label for="address" class="labels">Address:</label>
+                    <textarea type="text" id="address"  class="inputfield"></textarea>
+                </div>
+                <div class="inputgroup">
+                    <label for="state" class="label_select" for="state">State:</label>
+                    <select id="state" name="state">
+                        <option value="">Select state</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Tamilnadu">Tamilnadu</option>
+                    </select>
+                </div>
+                <div class="inputgroup">
+                    <label for="city"  class="label_select" for="city">City:</label>
+                    <select id="city" name="city">
+                        <option value="">Select city</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Account Information -->
+            <div class="formSection"id=accountInfo>
+                <h2>Account information</h2>
+                <div class="inputgroup">
+                    <label for="username" class="labels" for="username">Username:</label>
+                    <input type="text" id="username"  class="inputfield">
+                </div>
+                <div class='errorMessage' id="usernameError"></div>
+                <div class="inputgroup">
+                    <label for="password" class="labels" >Password:</label>
+                    <input type="password" id="password" class="inputfield" >
+                </div>
+                <div class='errorMessage' id="passwordError"></div>
+                <div class="inputgroup">
+                    <label for="password" class="labels">Confirm password:</label>
+                    <input type="password" id="confirmpassword" class="inputfield" >
+                </div>
+            </div>
+            <!-- Buttons -->
+            <div class="buttonSection">
+                <button type="button" id="backbutton" class="buttons"><a href="../day5_jquery/loginform.html/loginform.html" >Back</a></button>
+                <button type="submit" id="signup"  class="buttons">Sign up</button>
+            </div>
+        </form>
+        <!-- Footer -->
+        <div class="footer">
+            <p>Already have an account? <a href="../day5_jquery/loginform.html/loginform.html" target="_blank">Login</a></p>
+        </div>
+    </div>
+    </div>
+<script src="registration_form_script.js"></script>   
+</body>
+</html>

@@ -1,0 +1,163 @@
+.full{
+    /* background-color: rgb(40, 136, 136); */
+    background-image: url(background.png);
+    background-size: cover
+}
+.container{
+    margin:10px auto;
+    /* background-color: #f4f6fa; */
+    background-color: rgb(244, 246, 250,.9);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+#signupForm{
+    display: flex;
+    flex-direction: column;
+}
+.formSection {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: .5px solid #555;
+    border-radius: 1px;
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.headerSection{
+    margin-bottom: 10px;
+}
+.inputgroup {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+}
+.personalSection{
+    display: flex;
+}
+.labels{
+    margin: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transition: top 0.2s ease-in-out;
+    background: rgb(244, 246, 250,.9);
+    pointer-events: none;
+}
+.label_select{
+    margin: 20px;
+    box-sizing: border-box;
+    width: 30%;
+}
+.radioButtons{
+    margin: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin:0 ;
+    font-size: 16px;
+}
+.genderoptions {
+    display: flex;
+}
+.errorMessage{
+    color:red;
+    font-size: 12px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+.inputError{
+    border: 2px solid red !important;  
+}
+.buttons{
+    padding: 10px 50px;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 50px;
+}
+.buttons:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+}
+.buttonSection{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+#address{
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin:0 ;
+    font-size: 16px;
+}
+.active{
+    top:-30px;
+}
+#backbutton a{
+    color: white;
+    text-decoration: none;
+
+}
+ /* for responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+.progress {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    
+}
+.progress a:link{
+    text-decoration: none;
+}
+
+.progressStep {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    position: relative;
+    color: #333;
+}
+.progressStep.activate {
+    background-color: #4caf50;
+    color: white;
+}
+.progressStep:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50;
+    z-index: -1;
+    transform: translateY(-50%);
+}
