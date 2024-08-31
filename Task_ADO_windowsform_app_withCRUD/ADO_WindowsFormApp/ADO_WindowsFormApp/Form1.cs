@@ -35,14 +35,14 @@ namespace ADO_WindowsFormApp
             }
 
         }
-
+        //Create
         private void CreateButton_Click_1(object sender, EventArgs e)
         {
             SignUpForm form1 = new SignUpForm();
             form1.Show();
             form1.FormClosed += (s, args) => LoadData();
         }
-
+        //Delete
         private void DeleteButton_Click_1(object sender, EventArgs e)
         {
             
@@ -93,7 +93,7 @@ namespace ADO_WindowsFormApp
                 dataGridView1.DataSource = dataTable;
             }
         }
-
+        //update
         private void UpdateButton_Click_1(object sender, EventArgs e)
         {
            

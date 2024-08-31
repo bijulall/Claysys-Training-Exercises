@@ -13,14 +13,12 @@ using Microsoft.Data.SqlClient;
 namespace ADO_WindowsFormApp
 {
     public partial class SignUpForm : Form
-
     {
         string connectionString = "Server=DESKTOP-70RTERT\\SQLEXPRESS;Database=training_tasks_db;Integrated Security=True;TrustServerCertificate=True;";
         public SignUpForm()
         {
             InitializeComponent();
         }
-
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -40,6 +38,18 @@ namespace ADO_WindowsFormApp
                 MessageBox.Show("Please fill out all fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            if (string.IsNullOrWhiteSpace(txtEmail.Text) || !IsValidEmail(txtEmail.Text))
+            {
+                errorProvider1.SetError(txtEmail, "A valid email address is required.");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(txtPhone.Text) || !IsValidPhone(txtPhone.Text))
+            {
+                errorProvider1.SetError(txtPhone, "A valid 10-digit phone number is required.");
+                return;
+            }
+
+
             string plainPassword = txtPassword.Text;
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -63,20 +73,6 @@ namespace ADO_WindowsFormApp
 
                         btnCancel_Click(sender, e);
                         this.Close();
-
-
-
-                    }
-                }
-                catch (SqlException ex)
-                {
-                    if (ex.Number == 2627) 
-                    {
-                        MessageBox.Show("A user with this username or email already exists.", "Duplicate Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                    {
-                        MessageBox.Show($"SQL Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 catch (Exception ex)
@@ -85,10 +81,22 @@ namespace ADO_WindowsFormApp
                 }
             }
         }
-
-
-
-
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        private bool IsValidPhone(string phone)
+        {
+            return phone.All(char.IsDigit) && phone.Length == 10;
+        }
         private void btnCancel_Click(object sender, EventArgs e)
         {
             txtFirstName.Clear();
@@ -99,9 +107,6 @@ namespace ADO_WindowsFormApp
             txtPhone.Clear();
             txtPassword.Clear();
         }
-       
-
-
     }
 }
 
