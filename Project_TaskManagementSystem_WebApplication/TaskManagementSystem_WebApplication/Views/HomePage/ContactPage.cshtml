@@ -1,0 +1,76 @@
+﻿@model TaskManagementSystem_WebApplication.Models.ContactMessages
+
+@{
+    ViewBag.Title = "ContactPage";
+    Layout = "~/Views/Shared/HomePage_Layout.cshtml";
+}
+
+<h1 id="contactUsHeading">Contact us</h1>
+<p id="contactUsIntro">Streamline Your Project ManagementOur task management web application is designed to help you efficiently manage and track project tasks assigned to your team. Whether you’re overseeing multiple projects or ensuring that your team meets deadlines, our platform provides the tools you need to assign tasks, monitor progress, and achieve your goals. From project initiation to completion, keep everything on track with our intuitive interface. If you have any questions, feedback, or need assistance, don’t hesitate to contact us — we're here to support your project management needs.</p>
+<div class="address">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Our Office</h3>
+            <p><strong>Address:</strong> 123 Main Street,Kakkanad,Kerala,India</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Email:</strong> contact@taskhive.com</p>
+        </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15716.41447102162!2d76.35331742513897!3d10.008299322889496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080b62a7688a1d%3A0xea20f6a86d090450!2sInfopark%20Campus%2C%20Kochi%2C%20Kakkanad%2C%20Kerala%20682030!5e0!3m2!1sen!2sin!4v1725458710063!5m2!1sen!2sin" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+<div class="formcontainer">
+    @using (Html.BeginForm("ContactPage", "HomePage", FormMethod.Post, new { @onsubmit = "return validateContactForm()" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Send us a message</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", id = "name", onfocusout = "validateName()" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    <span class="errors" id="nameError"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", id = "mail", oninput = "validateMail()" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    <span class="errors" id="mailError"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Subject, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control", id = "subject", oninput = "validateSubject()" } })
+                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                    <span class="errors" id="SubjectError"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Message, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Message, new { htmlAttributes = new { @class = "form-control", id = "description", oninput = "validateDescription()" } })
+                    @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                    <span class="errors" id="DescriptionError"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Send message" class="btn btn-primary " id="submitButton" />
+                </div>
+            </div>
+        </div>
+    
+
+    }
+</div>

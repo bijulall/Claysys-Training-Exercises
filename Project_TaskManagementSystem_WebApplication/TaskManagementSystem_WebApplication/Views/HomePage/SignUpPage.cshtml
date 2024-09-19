@@ -1,0 +1,164 @@
+﻿@model TaskManagementSystem_WebApplication.Models.UserSignUp
+
+@{
+    ViewBag.Title = "SignUpPage";
+
+
+}
+
+<div class="mainContent">
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="formcontainer">
+        <h2>Sign up</h2>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <!-- First Name -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.FirstName)
+            <div>
+                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "", id = "firstname" } })
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Last Name -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.LastName)
+            <div>
+                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "", id = "lastname" } })
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Date of Birth -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.DateOfBirth)
+            <div>
+                @Html.TextBoxFor(model => model.DateOfBirth, "{0:yyyy-MM-dd}", new { @type = "text", @class = "datepicker" })
+                @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Gender -->
+        <div class="form-group inputgroup">
+            @Html.LabelFor(model => model.Gender)
+            <div>
+                <div class="genderoptions">
+                    <span class="genderButtons">@Html.RadioButtonFor(model => model.Gender, "Male") Male</span>
+                    <span class="genderButtons">@Html.RadioButtonFor(model => model.Gender, "Female") Female</span>
+                    <span class="genderButtons">@Html.RadioButtonFor(model => model.Gender, "Other") Other</span>
+                </div>
+                @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Email Address -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.EmailAddress)
+            <div>
+                @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "", id = "email" } })
+                @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.PhoneNumber)
+            <div>
+                @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "", id = "phone" } })
+                @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Address -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address)
+            <div>
+                @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "", id = "address" } })
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- State Dropdown -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.State)
+            <div>
+                @Html.DropDownListFor(model => model.State, Model.States, "Select State", new { id = "stateDropdown" })
+                @Html.ValidationMessageFor(model => model.State, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- City Dropdown -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.City)
+            <div>
+                @Html.DropDownListFor(model => model.City, Model.Cities, "Select City", new { id = "cityDropdown" })
+                @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Username -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Username)
+            <div>
+                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "", id = "username" } })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Password -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password)
+            <div>
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "", id = "password" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group visually-hidden">
+            @Html.LabelFor(model => model.UserRole, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UserRole, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UserRole, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label for="ConfirmPassword">Confirm password</label>
+            <div>
+                <input type="password" id="confirmpassword" name="ConfirmPassword" />
+                <span class="text-danger" id="ConfirmPasswordValidationMessage"></span>
+            </div>
+        </div>
+
+        <div class="buttonSection">
+            <div>
+                <input type="submit" value="Sign up" />
+            </div>
+        </div>
+    </div>
+    }
+</div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate.unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+  
+
+    <!-- Define a global variable to pass URL to external JS file -->
+    <script type="text/javascript">
+        var getCitiesUrl = '@Url.Action("GetCities", "HomePage")';
+    </script>
+
+    <script src="~/Scripts/CustomJS/Signup.js"></script>
+
+
+
+}

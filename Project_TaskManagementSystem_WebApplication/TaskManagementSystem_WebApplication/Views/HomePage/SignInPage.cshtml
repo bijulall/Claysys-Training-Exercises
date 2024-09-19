@@ -1,0 +1,53 @@
+﻿@model TaskManagementSystem_WebApplication.Models.UserLogin
+
+@{
+    ViewBag.Title = "SignInPage";
+    Layout = "~/Views/Shared/HomePage_Layout.cshtml";
+}
+@section HeadScripts {
+    <script type="text/javascript">
+        window.onload = function () {
+            // Prevent the user from using the back button after logout
+            if (window.history && window.history.pushState) {
+                window.history.pushState(null, null, window.location.href);
+                window.onpopstate = function () {
+                    window.history.go(1);
+                };
+            }
+        };
+    </script>
+}
+
+@using (Html.BeginForm("SignInPage", "HomePage", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+<div class="signincontainer">
+    <h4>Sign in</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div id="loginForm">
+        <div class="signSection">
+            @Html.LabelFor(m => m.EmailAddress, new { @class = "label" })
+
+            @Html.TextBoxFor(m => m.EmailAddress, new { @class = "input", id = "email" })
+            @Html.ValidationMessageFor(m => m.EmailAddress)
+            <div class='errorMessage' id="emailMessage"></div>
+
+        </div>
+        <div class="signSection">
+            @Html.LabelFor(m => m.Password, new { @class = "label" })
+            <div>
+                @Html.PasswordFor(m => m.Password, new { @class = "input", id = "password" })
+                @Html.ValidationMessageFor(m => m.Password)
+                <div class='errorMessage' id="passwordMessage"></div>
+            </div>
+        </div>
+        <div class="signSection">
+            <button type="submit" class="button">Sign in</button>
+        </div>
+        <p id="signup">Don't have an account? <a href="@Url.Action("SignUpPage", "HomePage")">Sign Up</a></p>
+    </div>
+
+</div>
+}
+

@@ -1,0 +1,97 @@
+﻿@model IEnumerable<TaskManagementSystem_WebApplication.Models.UserTaskList>
+
+@{
+    ViewBag.Title = "UserDashBoard";
+    Layout = "~/Views/Shared/UserPage_Layout.cshtml";
+}
+
+<header id="header">
+    <h1>Welcome to Task Hive</h1>
+    <p>Your ultimate task management companion. Track, organize, and complete your tasks effortlessly with our intuitive interface.</p>
+</header>
+<div class="tableContainer">
+    <h2>Current active tasks</h2>
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Priority)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProjectName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientName)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TaskTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Priority)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProjectName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ClientName)
+                </td>
+                <td>
+
+                    @Html.ActionLink("More details", "TaskDeatils", new { id = item.TaskID }) |
+                    @Html.ActionLink("Delete", "DeleteTaskbyUser", new { id = item.TaskID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+<section id="create_task">
+    <p>Looking for a way to add new tasks and stay on top of your goals? Click the button below to create a new task and get started.</p>
+
+    <p id="create_task_btn">
+        @Html.ActionLink("Create Your Own Task", "CreateTaskForUser", new { id = "createtask" })
+
+    </p>
+
+
+</section>
+
+

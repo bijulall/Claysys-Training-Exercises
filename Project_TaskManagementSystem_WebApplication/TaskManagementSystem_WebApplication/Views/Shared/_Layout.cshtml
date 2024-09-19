@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/CustomCSS/HomePage.css" rel="stylesheet" />
+    <link href="~/Content/CustomCSS/signUpForm.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    
+</head>
+<body>
+    <div class="navbarContainer">
+        <ul class="navbar_row">
+            <!-- Left Side: Logo and Site Name -->
+            <li class="navbar_left navbar_list">
+                <a class="siteLogo" href="@Url.Action("MainDashboard", "HomePage")">
+                    <img src="~/Content/Images/tasklogo2.png" alt="TaskHive Logo" id="taskhiveLogo">
+                    <span class="site-name">TaskHive</span>
+                </a>
+            </li>
+
+            <!-- Right Side: Links (About Us, Contact Us, Sign In, Sign Up) -->
+            <div class="navbar_right_container">
+            <li class="navbar_right navbar_list"><a href="@Url.Action("AboutUs", "HomePage")">About us</a></li>
+            <li class="navbar_right navbar_list"><a href="@Url.Action("ContactPage", "HomePage")">Contact us</a></li>
+            <li class="navbar_right navbar_list"><a href="@Url.Action("SignUpPage_demo", "HomePage")"><span class="glyphicon glyphicon-user"></span> Sign up</a></li>
+            <li class="navbar_right navbar_list"><a href="@Url.Action("SignInPage", "HomePage")"><span class="glyphicon glyphicon-log-in"></span> Sign in</a></li>
+        </ul>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+
+    </div>
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="footerColumn">
+                <h3>Task hive</h3>
+                <h4>Follow us</h4>
+                <div class="socialIcons">
+                    <a href="#" target="_blank"><img src="~/Content/Images/fb3.png" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="~/Content/Images/instagramLogo.png" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="~/Content/Images/LinkedinLogo.png" alt="Instagram"></a>
+                </div>
+            </div>
+
+            <div class="footerColumn">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="@Url.Action("AboutUs", "HomePage")">About us</a></li>
+                    <li><a href="@Url.Action("ContactPage", "HomePage")">Contact us</a></li>
+                    <li><a href="@Url.Action("SignInPage", "HomePage")" ">Sign in</a></li>
+                    <li><a href="@Url.Action("SignUpPage", "HomePage")">SignUp</a></li>
+                </ul>
+            </div>
+
+            <div class="footerColumn">
+                <h4>Contact Us</h4>
+                <p>Email: contact@taskhive.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Main St, Ernakulam, India</p>
+            </div>
+        </div>
+
+        <!-- Copyright Row -->
+        <div class="footerCopyright">
+            <p>&copy; 2024 Taskhive. All rights reserved.</p>
+        </div>
+    </footer>
+ 
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<TaskManagementSystem_WebApplication.Models.Projects>
+
+@{
+    ViewBag.Title = "GetProjects";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";
+}
+<div class="mainContent">
+    <p class="createButton">
+        @Html.ActionLink("Add new project", "CreateProject")
+    </p>
+    <h3 class="majorHeading">Projects</h3>
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProjectName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProjectName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "UpdateProject", new { id = item.ProjectID }) |
+                    @Html.ActionLink("Details", "GetProjectByID", new { id = item.ProjectID }) |
+                    @Html.ActionLink("Delete", "DeleteProject", new { id = item.ProjectID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

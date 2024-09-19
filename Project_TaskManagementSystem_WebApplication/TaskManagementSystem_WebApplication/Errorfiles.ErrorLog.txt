@@ -1,0 +1,24 @@
+Time: 17-09-2024 03:16:01 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+
+Time: 17-09-2024 03:18:43 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+
+Time: 17-09-2024 03:19:36 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+

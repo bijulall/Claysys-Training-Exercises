@@ -1,0 +1,230 @@
+Time: 17-09-2024 03:22:16 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+
+Time: 17-09-2024 03:39:48 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+
+Time: 17-09-2024 03:45:04 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+
+Time: 17-09-2024 03:47:49 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+
+Time: 17-09-2024 03:49:53 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+
+Time: 17-09-2024 03:53:18 PM
+-----------------------------------------------------------
+Message: This is a test exception for logging purposes.
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 53
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult ContactPage()
+-----------------------------------------------------------
+
+Time: 18-09-2024 08:48:04 AM
+-----------------------------------------------------------
+Message: checking for testing
+StackTrace:    at TaskManagementSystem_WebApplication.Controllers.HomePageController.AboutUs() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 46
+Source: TaskManagementSystem_WebApplication
+TargetSite: System.Web.Mvc.ActionResult AboutUs()
+-----------------------------------------------------------
+
+Time: 18-09-2024 10:06:12 AM
+-----------------------------------------------------------
+Message: Procedure or function 'SPU_UserAccount' expects parameter '@city', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TaskManagementSystem_WebApplication.Repository.SignRepository.UpdateSignUp(UserSignUp userSignup) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\SignRepository.cs:line 179
+   at TaskManagementSystem_WebApplication.Controllers.HomePageController.UpdateUserAcoountPage(UserSignUp signup) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 476
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 18-09-2024 11:36:54 AM
+-----------------------------------------------------------
+Message: Procedure or function 'SPU_UserAccount' expects parameter '@address', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TaskManagementSystem_WebApplication.Repository.SignRepository.UpdateSignUp(UserSignUp userSignup) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\SignRepository.cs:line 179
+   at TaskManagementSystem_WebApplication.Controllers.AdminPageController.UpdateUserAccountPage(UserSignUp signup) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\AdminPageController.cs:line 1031
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 18-09-2024 06:18:40 PM
+-----------------------------------------------------------
+Message: Procedure or function 'SPI_Message' expects parameter '@name', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TaskManagementSystem_WebApplication.Repository.SignRepository.CreateContactUs(ContactMessages contactMessages) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\SignRepository.cs:line 240
+   at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage(ContactMessages contactMessages) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 84
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 18-09-2024 08:07:28 PM
+-----------------------------------------------------------
+Message: Procedure or function 'SPI_Message' expects parameter '@name', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TaskManagementSystem_WebApplication.Repository.SignRepository.CreateContactUs(ContactMessages contactMessages) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\SignRepository.cs:line 240
+   at TaskManagementSystem_WebApplication.Controllers.HomePageController.ContactPage(ContactMessages contactMessages) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 84
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 19-09-2024 09:25:01 AM
+-----------------------------------------------------------
+Message: Procedure or function 'SPI_Tasks' expects parameter '@taskTitle', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TaskManagementSystem_WebApplication.Repository.AdminRepository.CreateTask(Tasks tasks) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\AdminRepository.cs:line 78
+   at TaskManagementSystem_WebApplication.Controllers.AdminPageController.CreateTask(Tasks tasks) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\AdminPageController.cs:line 119
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 19-09-2024 09:44:07 AM
+-----------------------------------------------------------
+Message: Procedure or function 'SPI_Tasks' expects parameter '@taskTitle', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TaskManagementSystem_WebApplication.Repository.AdminRepository.CreateTask(Tasks tasks) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\AdminRepository.cs:line 78
+   at TaskManagementSystem_WebApplication.Controllers.AdminPageController.CreateTask(Tasks tasks) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\AdminPageController.cs:line 119
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 19-09-2024 09:47:52 AM
+-----------------------------------------------------------
+Message: Procedure or function 'SPI_Clients' expects parameter '@clientName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TaskManagementSystem_WebApplication.Repository.AdminRepository.CreateClient(Clients clients) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\AdminRepository.cs:line 418
+   at TaskManagementSystem_WebApplication.Controllers.AdminPageController.CreateClient(Clients clients) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\AdminPageController.cs:line 535
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 19-09-2024 10:08:33 AM
+-----------------------------------------------------------
+Message: String reference not set to an instance of a String.
+Parameter name: s
+StackTrace:    at System.Text.Encoding.GetBytes(String s)
+   at TaskManagementSystem_WebApplication.Controllers.AdminPageController.Base64Encode(String plainText) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\AdminPageController.cs:line 894
+   at TaskManagementSystem_WebApplication.Controllers.AdminPageController.PasswordReset(PasswordReset model) in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\AdminPageController.cs:line 859
+Source: mscorlib
+TargetSite: Byte[] GetBytes(System.String)
+-----------------------------------------------------------
+
+Time: 19-09-2024 12:09:59 PM
+-----------------------------------------------------------
+Message: Cannot open database "TaskManagementSystemDB" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\DefaultAppPool'.
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TaskManagementSystem_WebApplication.Repository.SignRepository.GetStates() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\SignRepository.cs:line 93
+   at TaskManagementSystem_WebApplication.Controllers.HomePageController.SignUpPage_demo() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 215
+Source: .Net SqlClient Data Provider
+TargetSite: Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+-----------------------------------------------------------
+
+Time: 19-09-2024 01:35:19 PM
+-----------------------------------------------------------
+Message: Cannot open database "TaskManagementSystemDB" requested by the login. The login failed.
+Login failed for user 'IIS APPPOOL\DefaultAppPool'.
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TaskManagementSystem_WebApplication.Repository.SignRepository.GetStates() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Repository\SignRepository.cs:line 93
+   at TaskManagementSystem_WebApplication.Controllers.HomePageController.SignUpPage_demo() in D:\lap\Bijulal_Lap\final_project\FinalProject\TaskManagementSystem_WebApplication\TaskManagementSystem_WebApplication\Controllers\HomePageController.cs:line 215
+Source: .Net SqlClient Data Provider
+TargetSite: Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+-----------------------------------------------------------
+

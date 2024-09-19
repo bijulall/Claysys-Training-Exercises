@@ -1,0 +1,109 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AdminPage_Layout</title>
+    <link href="~/Content/CustomCSS/UserPage.css" rel="stylesheet" />
+
+   
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div>
+        <div class="navbarContainer">
+            <ul class="navbar_row">
+                <!-- Left Side: Logo and Site Name -->
+                <li class="navbar_left navbar_list">
+                    <a class="active" href="@Url.Action("MainDashboard", "HomePage")">
+                        <img src="~/Content/Images/tasklogo2.png" alt="TaskHive Logo" id="taskhiveLogo">
+                        <span class="site-name">TaskHive</span>
+                    </a>
+                </li>
+
+                <!-- Right Side: Links (About Us, Contact Us, Sign In, Sign Up) -->
+                <div class="navbar_right_container">
+
+                <li class="navbar_right navbar_list"><a href="@Url.Action("GetReportByUser","UserPage")"><span class="glyphicon glyphicon-user"></span> Reports</a></li>
+                <div class="profile">
+                    @if (!string.IsNullOrEmpty(ViewBag.ProfilePhoto))
+                    {
+                        <!-- Profile Picture (clickable) -->
+                        <img src="data:image/png;base64,@ViewBag.ProfilePhoto" alt="Profile Photo" id="profilePic" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <!-- No profile picture available (also clickable) -->
+                        <div id="noPhoto" style="cursor: pointer; color: gray; font-size: 14px;">Admin</div>
+                    }
+
+                    <!-- Dropdown menu (initially hidden) -->
+                <div class="menu" id="dropdownMenu">
+                  
+                    <a href="@Url.Action("UpdateUserAcoountPage","HomePage")">Update Profile</a>
+                    <a href="@Url.Action("PasswordReset","AdminPage")">Reset password</a>
+                    <a href="@Url.Action("SignOut","AdminPage")">Signout</a>
+                </div>
+                </div>
+
+                <div>
+            </ul>
+        </div>
+        <div>
+            <div class="pagecontainer">
+
+                @RenderBody()
+            </div>
+            <hr />
+            <footer class="footer">
+                <div class="footerContainer">
+                    <div class="footerColumn">
+                        <h4>Task hive</h4>
+                        <div class="socialIcons">
+                            <a href="#" target="_blank"><img src="~/Content/Images/fb3.png" alt="Facebook"></a>
+                            <a href="#" target="_blank"><img src="~/Content/Images/instagramLogo.png" alt="Twitter"></a>
+                            <a href="#" target="_blank"><img src="~/Content/Images/LinkedinLogo.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+
+                    <div class="footerColumn">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footerColumn">
+                        <h4>Contact Us</h4>
+                        <p>Email: contact@taskhive.com</p>
+                        <p>Phone: +123 456 7890</p>
+                        <p>Address: 123 Main St, Ernakulam, India</p>
+                    </div>
+                </div>
+
+                <!-- Copyright Row -->
+                <div class="footerCopyright">
+                    <p>&copy; 2024 Taskhive. All rights reserved.</p>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+    <script src="~/Scripts/CustomJS/TaskForm.js"></script>
+    <script src="~/Scripts/CustomJS/Common.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+   
+</body>
+</html>

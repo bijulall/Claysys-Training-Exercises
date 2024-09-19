@@ -1,0 +1,121 @@
+﻿@model TaskManagementSystem_WebApplication.Models.Tasks
+
+@{
+    ViewBag.Title = "CreateTask";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";
+}
+<div class="formcontainer">
+    <h2>Create new task</h2>
+
+    @using (Html.BeginForm("CreateTask", "AdminPage", FormMethod.Post, new {  @onsubmit = "return validateTaskForm()" }))
+    {
+        @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TaskTitle, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.TaskTitle, new { htmlAttributes = new { @class = "form-control", id = "name", oninput = "validateName()" } })
+            @Html.ValidationMessageFor(model => model.TaskTitle, "", new { @class = "text-danger" })
+            <span class="errors" id="nameError"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", id = "description", oninput = "validateDescription()" } })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            <span class="errors" id="DescriptionError"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Priority, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <div>
+                @Html.RadioButtonFor(model => model.Priority, "Low") Low
+                @Html.RadioButtonFor(model => model.Priority, "Medium") Medium
+                @Html.RadioButtonFor(model => model.Priority, "High") High
+            </div>
+            @Html.ValidationMessageFor(model => model.Priority, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CreatedDate, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CreatedDate, "{0:yyyy-MM-dd}", new { htmlAttributes = new { @class = "form-control", @type = "date",id="CreatedDate" } })
+            @Html.ValidationMessageFor(model => model.CreatedDate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DueDate, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.DueDate, "{0:yyyy-MM-dd}", new { htmlAttributes = new { @class = "form-control", @type = "date", id = "DueDate" } })
+            @Html.ValidationMessageFor(model => model.DueDate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.AssignedTo, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.AssignedTo,
+                               new SelectList(ViewBag.Users, "UserID", "Username", "EmailAddress"),
+                               "Select User",
+                               new { @class = "form-control" , id = "AssignedTo" })
+            @Html.ValidationMessageFor(model => model.AssignedTo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <div>
+                @Html.RadioButtonFor(model => model.Status, "Not Started") Not Started
+                @Html.RadioButtonFor(model => model.Status, "In Progress") In Progress
+                @Html.RadioButtonFor(model => model.Status, "Completed") Completed
+            </div>
+            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.Label("Project Name", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.ProjectID,
+                                         new SelectList(ViewBag.Projects, "ProjectID", "ProjectName"),
+                                         "Select Project",
+                                         new { @class = "form-control", id = "ProjectID" })
+            @Html.ValidationMessageFor(model => model.ProjectID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Client Name", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.ClientID,
+                                         new SelectList(ViewBag.Clients, "ClientID", "ClientName"),
+                                         "Select Client",
+                                         new { @class = "form-control", id = "ClientID" })
+            @Html.ValidationMessageFor(model => model.ClientID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</div>

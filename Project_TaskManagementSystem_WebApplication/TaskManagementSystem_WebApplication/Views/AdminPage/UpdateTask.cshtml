@@ -1,0 +1,117 @@
+﻿@model TaskManagementSystem_WebApplication.Models.Tasks
+
+@{
+    ViewBag.Title = "UpdateTask";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";
+}
+<div class="mainContent formcontainer">
+
+    <h2>UpdateTask</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+<div class="form-horizontal ">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.TaskID)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TaskTitle)
+        <div>
+            @Html.EditorFor(model => model.TaskTitle, new { htmlAttributes = new { @class = "form-control", id = "name", oninput = "validateName()" } })
+            @Html.ValidationMessageFor(model => model.TaskTitle, "", new { @class = "text-danger" })
+            <span class="errors" id="nameError"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description)
+        <div>
+            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", id = "description", oninput = "validateDescription()" } })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            <span class="errors" id="DescriptionError"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Priority)
+        <div>
+            @Html.EditorFor(model => model.Priority)
+            @Html.ValidationMessageFor(model => model.Priority, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CreatedDate)
+        <div>
+            @Html.EditorFor(model => model.CreatedDate, "{0:yyyy-MM-dd}", new { @type = "date" })
+            @Html.ValidationMessageFor(model => model.CreatedDate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DueDate)
+        <div>
+            @Html.EditorFor(model => model.DueDate, "{0:yyyy-MM-dd}", new { @type = "date" })
+            @Html.ValidationMessageFor(model => model.DueDate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.AssignedTo)
+        <div>
+            @Html.DropDownListFor(model => model.AssignedTo,
+                                    new SelectList(ViewBag.Users, "UserID", "Username", "EmailAddress"),
+                                    "Select User")
+            @Html.ValidationMessageFor(model => model.AssignedTo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <div>
+                @Html.RadioButtonFor(model => model.Status, "Not Started") Not Started
+                @Html.RadioButtonFor(model => model.Status, "In Progress") In Progress
+                @Html.RadioButtonFor(model => model.Status, "Completed") Completed
+            </div>
+            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Project Name")
+        <div>
+            @Html.DropDownListFor(model => model.ProjectID,
+                                              new SelectList(ViewBag.Projects, "ProjectID", "ProjectName"),
+                                              "Select Project")
+            @Html.ValidationMessageFor(model => model.ProjectID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Client Name")
+        <div>
+            @Html.DropDownListFor(model => model.ClientID,
+                                              new SelectList(ViewBag.Clients, "ClientID", "ClientName"),
+                                              "Select Client")
+            @Html.ValidationMessageFor(model => model.ClientID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div>
+            <input type="submit" value="Save" />
+        </div>
+    </div>
+</div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "AdminDashboard")
+    </div>
+</div>

@@ -1,0 +1,88 @@
+﻿/*container styling*/
+.signincontainer {
+    margin: 10px auto;
+    /* background-color: #f4f6fa; */
+    background-color: rgb(244, 246, 250,.9);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.headerSection {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.loginSection {
+    text-align: center;
+    padding: 5px;
+}
+#signup {
+    text-align: center;
+    color: #d42b2b;
+    margin-bottom: 20px;
+}
+.signSection {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.signincontainer input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.active {
+    top: -20px;
+}
+.inputfield {
+    padding: 12px 10px;
+    border: 2px solid #ffff;
+}
+ .inputfield :focus {
+        outline: none;
+    }
+
+/* login button styles*/
+#loginButton {
+    padding: 10px 50px;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/*styles when button hover input buttons*/
+#loginButton:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+}
+/* Media Queries for max-width 768px */
+@media (max-width: 768px) {
+    .signincontainer {
+        width: 95%; /* Adjust width for smaller screens */
+        max-width: none; /* Remove max-width constraint */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+        .signincontainer input {
+            font-size: 14px; /* Adjust font size for smaller screens */
+            padding: 8px; /* Adjust padding for smaller screens */
+        }
+
+    #loginButton {
+        padding: 8px 30px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    #signup {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}

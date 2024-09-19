@@ -1,0 +1,66 @@
+﻿@model TaskManagementSystem_WebApplication.Models.Clients
+
+@{
+    ViewBag.Title = "UpdateClient";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";
+}
+<div class="formcontainer">
+    <h2>UpdateClient</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.ClientID)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ClientName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ClientName, new { htmlAttributes = new { @class = "form-control", id = "name", oninput = "validateName()" } })
+                    @Html.ValidationMessageFor(model => model.ClientName, "", new { @class = "text-danger" })
+                    <span class="errors" id="nameError"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ContactMail, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ContactMail, new { htmlAttributes = new { @class = "form-control", id = "mail", oninput = "validateMail()" } })
+                    @Html.ValidationMessageFor(model => model.ContactMail, "", new { @class = "text-danger" })
+                    <span class="errors" id="mailError"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", id = "description", oninput = "validateDescription()" } })
+                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                    <span class="errors" id="DescriptionError"></span>
+                </div>
+            </div>
+
+            <div class="form-group visually-hidden">
+                @Html.LabelFor(model => model.CreatedBy, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CreatedBy, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.CreatedBy, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</div>

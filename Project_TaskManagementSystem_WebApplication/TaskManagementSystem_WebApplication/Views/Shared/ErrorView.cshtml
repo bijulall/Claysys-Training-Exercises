@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "ErrorView";
+    Layout = "~/Views/Shared/HomePage_Layout.cshtml";
+}
+
+<h2>Error</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="errorMessage" id="ErrorData">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<p>Something went wrong. Please try again later or contact support if the issue persists.</p>
+
+<a href="@Url.Action("MainDashboard", "HomePage")">Return to Home Page</a>
+

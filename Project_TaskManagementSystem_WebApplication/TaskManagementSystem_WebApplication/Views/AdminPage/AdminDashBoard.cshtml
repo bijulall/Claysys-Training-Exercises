@@ -1,0 +1,92 @@
+﻿@model IEnumerable<TaskManagementSystem_WebApplication.Models.UserSignUp>
+
+@{
+    ViewBag.Title = "AdminDashBoard";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";
+}
+
+
+<div class="largeContent">
+
+    <h3 class="majorHeading">Current users</h3>
+
+    <table class="table table-hover table-striped table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Username)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.UserRole)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfBirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Username)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserRole)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "UpdateUserAccountPage", "AdminPage", new { id = item.UserID }, null) |
+                    @Html.ActionLink("Details", "Details", "HomePage", new { id = item.UserID }, null) |
+                    @Html.ActionLink("Delete", "Delete", "HomePage", new { id = item.UserID }, null)
+                </td>
+            </tr>
+        }
+
+    </table>
+
+
+</div>
+
+
+

@@ -1,0 +1,52 @@
+﻿@model TaskManagementSystem_WebApplication.Models.ContactMessages
+
+@{
+    ViewBag.Title = "GetCommentByID";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";
+}
+
+<div class="formcontainer">
+
+    <div>
+        <h4>ContactMessages</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Subject)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Subject)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Message)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Message)
+            </dd>
+
+        </dl>
+    </div>
+  
+    <!-- Button to open Gmail with email pre-filled -->
+    <div class="emailButton"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=@Model.Email&su=@Model.Subject" target="_blank" class="btn btn-primary">
+    Send Email</a></div>
+</div>

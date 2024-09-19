@@ -1,0 +1,1477 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|d:\\lap\\bijulal_lap\\final_project\\finalproject\\taskmanagementsystem_webapplication\\taskmanagementsystem_webapplication\\views\\homepage\\maindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\maindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\controllers\\homepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\controllers\\homepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\signuppage_demo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\signuppage_demo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\deleteproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\deleteproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\signinpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\signinpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\scripts\\customjs\\signin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\scripts\\customjs\\signin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\content\\customcss\\signin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\content\\customcss\\signin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\scripts\\customjs\\signupdemo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\scripts\\customjs\\signupdemo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\content\\customcss\\signupform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\content\\customcss\\signupform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\updateuseracoountpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\updateuseracoountpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\scripts\\customjs\\taskform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\scripts\\customjs\\taskform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\content\\customcss\\adminpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\content\\customcss\\adminpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\errorfiles\\errorlog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\errorfiles\\errorlog.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\signuppage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\signuppage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|TaskManagementSystem_WebApplication||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\userpage\\updatetaskprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\userpage\\updatetaskprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\taskprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\taskprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\content\\customcss\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\content\\customcss\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\updateuseraccountpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\updateuseraccountpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\userpage\\createtaskforuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\userpage\\createtaskforuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\shared\\userpage_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\shared\\userpage_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\shared\\adminpage_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\shared\\adminpage_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\createtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\createtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\passwordreset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\passwordreset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\content\\customcss\\userpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\content\\customcss\\userpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\adminsignuppage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\adminsignuppage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\createclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\createclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\deletereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\deletereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\deleteclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\deleteclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\createreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\createreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\deletecomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\deletecomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\scripts\\customjs\\message.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\scripts\\customjs\\message.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\gettask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\gettask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getalltasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getalltasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getallclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getallclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getallreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getallreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getcomments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getcomments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\scripts\\customjs\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\scripts\\customjs\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\scripts\\customjs\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\scripts\\customjs\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\contactpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\contactpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\shared\\homepage_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\shared\\homepage_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\userpage\\getreportbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\userpage\\getreportbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\contactuspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\contactuspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\utilities\\errorlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\utilities\\errorlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\controllers\\userpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\controllers\\userpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\controllers\\adminpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\controllers\\adminpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\repository\\signrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\repository\\signrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\usersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\usersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\userpage\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\userpage\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\userpage\\taskdeatils.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\userpage\\taskdeatils.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\userpage\\getreportbyuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\userpage\\getreportbyuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\shared\\errorview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\shared\\errorview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\taskdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\taskdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getcommentbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getcommentbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\contactmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\contactmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\updatereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\updatereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\updateclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\updateclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\updateproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\updateproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\updatetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\updatetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\reportdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\reportdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\usertasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\usertasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\reportforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\reportforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\homepage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\homepage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\userpage\\deletetaskbyuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\userpage\\deletetaskbyuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\deletetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\deletetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\views\\adminpage\\getprojectbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\views\\adminpage\\getprojectbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\taskmanagementsystem_webapplication\\models\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F15BF-F5D4-4ABA-A794-D889A197513B}|TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj|solutionrelative:taskmanagementsystem_webapplication\\models\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainDashboard.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\MainDashboard.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\MainDashboard.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\MainDashboard.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\MainDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T07:03:29.24Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignInPage.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\SignInPage.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\SignInPage.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\SignInPage.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\SignInPage.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T11:18:10.266Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SignRepository.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Repository\\SignRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Repository\\SignRepository.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Repository\\SignRepository.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Repository\\SignRepository.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAcwE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:19:07.288Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePageController.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Controllers\\HomePageController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Controllers\\HomePageController.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Controllers\\HomePageController.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Controllers\\HomePageController.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAqwNAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T06:57:57.555Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AdminDashBoard.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\AdminDashBoard.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\AdminDashBoard.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\AdminDashBoard.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\AdminDashBoard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T06:34:21.901Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateTask.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateTask.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateTask.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateTask.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateTask.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAADsAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T12:24:39.941Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "signupdemo.js",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\signupdemo.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\signupdemo.js",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\signupdemo.js",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\signupdemo.js",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAKMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-11T14:14:47.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "signIn.js",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\signIn.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\signIn.js",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\signIn.js",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\signIn.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-10T04:02:23.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminPage.css",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\AdminPage.css",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\AdminPage.css",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\AdminPage.css",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\AdminPage.css",
+              "ViewState": "AgIAANoAAAAAAAAAAAAAAOQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-05T05:14:23.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Message.js",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\Message.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\Message.js",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\Message.js",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\Message.js",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T14:51:16.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ErrorLog.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Utilities\\ErrorLog.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Utilities\\ErrorLog.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Utilities\\ErrorLog.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Utilities\\ErrorLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:07:22.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserPageController.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Controllers\\UserPageController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Controllers\\UserPageController.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Controllers\\UserPageController.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Controllers\\UserPageController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:39:31.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AdminPageController.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Controllers\\AdminPageController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Controllers\\AdminPageController.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Controllers\\AdminPageController.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Controllers\\AdminPageController.cs",
+              "ViewState": "AgIAAFMDAAAAAAAAAAAywBoEAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:41:09.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Repository\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Repository\\AdminRepository.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Repository\\AdminRepository.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Repository\\AdminRepository.cs",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAiwOoCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:46:14.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserSignUp.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\UserSignUp.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\UserSignUp.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\UserSignUp.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\UserSignUp.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T11:56:08.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Signin.css",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\Signin.css",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\Signin.css",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\Signin.css",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\Signin.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwv1cAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-09T09:20:55.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskManagementSystem_WebApplication",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj*",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-19T06:26:05.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUpPage_demo.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\SignUpPage_demo.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\SignUpPage_demo.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\SignUpPage_demo.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\SignUpPage_demo.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAHUAAAC6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T08:23:52.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateTaskForUser.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\CreateTaskForUser.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\UserPage\\CreateTaskForUser.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\CreateTaskForUser.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\UserPage\\CreateTaskForUser.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T04:08:51.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetAllTasks.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllTasks.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllTasks.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllTasks.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllTasks.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T04:18:05.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ContactPage.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\ContactPage.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\ContactPage.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\ContactPage.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\ContactPage.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEQAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T06:02:25.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateClient.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateClient.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateClient.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateClient.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateClient.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T06:58:06.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UserDashBoard.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\UserDashBoard.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\UserPage\\UserDashBoard.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\UserDashBoard.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\UserPage\\UserDashBoard.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T10:29:14.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T05:52:20.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Web.config",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Web.config",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Web.config",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-02T09:11:33.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Web.config",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\Web.config",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Web.config",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\Web.config",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-18T07:31:16.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateUserAccountPage.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateUserAccountPage.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateUserAccountPage.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateUserAccountPage.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateUserAccountPage.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAoAAACeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T03:52:55.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:43:44.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateUserAcoountPage.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\UpdateUserAcoountPage.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\UpdateUserAcoountPage.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\UpdateUserAcoountPage.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\UpdateUserAcoountPage.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAADwv4UAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T13:01:36.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ErrorView.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\ErrorView.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\Shared\\ErrorView.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\ErrorView.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\Shared\\ErrorView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T10:13:23.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorLog.txt",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Errorfiles\\ErrorLog.txt",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Errorfiles\\ErrorLog.txt",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Errorfiles\\ErrorLog.txt",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Errorfiles\\ErrorLog.txt",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-17T09:48:33.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T09:46:38.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "homePage.js",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\homePage.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\homePage.js",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\homePage.js",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\homePage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-17T06:48:40.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Global.asax.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Global.asax.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Global.asax.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Global.asax.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T05:41:47.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\App_Start\\FilterConfig.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T05:33:49.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DeleteComment.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteComment.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteComment.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteComment.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteComment.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T12:32:53.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "GetCommentByID.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetCommentByID.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetCommentByID.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetCommentByID.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetCommentByID.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T11:46:16.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GetComments.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetComments.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetComments.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetComments.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetComments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T11:20:07.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskForm.js",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\TaskForm.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\TaskForm.js",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\TaskForm.js",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\TaskForm.js",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAUwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-14T07:45:20.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Common.js",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\Common.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\Common.js",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\Common.js",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Scripts\\CustomJS\\Common.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-14T04:31:43.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminPage_Layout.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\AdminPage_Layout.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\Shared\\AdminPage_Layout.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\AdminPage_Layout.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\Shared\\AdminPage_Layout.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAACAAAAC/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T05:09:43.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateProject.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateProject.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateProject.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateProject.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateProject.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwAkAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T05:47:35.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UpdateReport.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateReport.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateReport.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateReport.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateReport.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T04:42:32.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UpdateProject.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateProject.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateProject.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateProject.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateProject.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T13:16:11.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateReport.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateReport.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateReport.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateReport.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\CreateReport.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T16:54:19.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UpdateTask.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateTask.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateTask.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateTask.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateTask.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T10:38:45.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "UpdateClient.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateClient.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateClient.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateClient.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\UpdateClient.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T07:25:10.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ReportDetails.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\ReportDetails.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\ReportDetails.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\ReportDetails.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\ReportDetails.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:12:55.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\UserLogin.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\UserLogin.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\UserLogin.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\UserLogin.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T10:36:49.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Reports.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\Reports.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\Reports.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\Reports.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\Reports.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwB0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T16:15:49.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetReportByID.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\GetReportByID.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\UserPage\\GetReportByID.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\GetReportByID.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\UserPage\\GetReportByID.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T13:51:17.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetTask.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetTask.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetTask.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetTask.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetTask.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T06:04:03.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "TaskDetails.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\TaskDetails.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\TaskDetails.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\TaskDetails.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\TaskDetails.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowBsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:39:19.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "TaskDeatils.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\TaskDeatils.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\UserPage\\TaskDeatils.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\TaskDeatils.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\UserPage\\TaskDeatils.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T05:13:22.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateTaskProgress.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\UpdateTaskProgress.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\UserPage\\UpdateTaskProgress.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\UpdateTaskProgress.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\UserPage\\UpdateTaskProgress.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T17:31:34.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignUpPage.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\SignUpPage.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\SignUpPage.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\SignUpPage.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\SignUpPage.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAC8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T14:01:00.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserPage.css",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\UserPage.css",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\UserPage.css",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\UserPage.css",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\UserPage.css",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-10T06:49:37.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "signUpForm.css",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\signUpForm.css",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\signUpForm.css",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\signUpForm.css",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\signUpForm.css",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-09T06:41:00.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomePage.css",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\HomePage.css",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\HomePage.css",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\CustomCSS\\HomePage.css",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Content\\CustomCSS\\HomePage.css",
+              "ViewState": "AgIAADMBAAAAAAAAAAAwwEUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T04:57:15.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "PasswordReset.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\PasswordReset.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\PasswordReset.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\PasswordReset.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\PasswordReset.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T12:10:01.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ContactMessages.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\ContactMessages.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\ContactMessages.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\ContactMessages.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\ContactMessages.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T05:47:41.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GetReportByUSER.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\GetReportByUSER.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\UserPage\\GetReportByUSER.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\GetReportByUSER.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\UserPage\\GetReportByUSER.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T06:21:15.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ReportForUser.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\ReportForUser.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\ReportForUser.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\ReportForUser.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\ReportForUser.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA+wBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:51:36.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "DeleteTaskbyuser.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\DeleteTaskbyuser.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\UserPage\\DeleteTaskbyuser.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\UserPage\\DeleteTaskbyuser.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\UserPage\\DeleteTaskbyuser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T18:24:39.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeleteReport.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteReport.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteReport.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteReport.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteReport.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T18:04:47.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "DeleteTask.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteTask.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteTask.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteTask.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteTask.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAHIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T17:55:36.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaskProgress.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\TaskProgress.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\TaskProgress.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\TaskProgress.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\TaskProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:33:20.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UserTaskList.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\UserTaskList.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\UserTaskList.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\UserTaskList.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\UserTaskList.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:04:29.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserPage_Layout.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\UserPage_Layout.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\Shared\\UserPage_Layout.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\UserPage_Layout.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\Shared\\UserPage_Layout.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T06:44:55.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PasswordReset.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\PasswordReset.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\PasswordReset.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\PasswordReset.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\PasswordReset.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T13:24:23.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetAllClients.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllClients.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllClients.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllClients.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllClients.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T06:10:33.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Site.css",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\Site.css",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Content\\Site.css",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Content\\Site.css",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-09T07:02:36.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T06:47:53.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ContactUsPage.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\ContactUsPage.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\ContactUsPage.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\ContactUsPage.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\ContactUsPage.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T07:04:32.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "GetReport.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetReport.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetReport.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetReport.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetReport.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T04:26:33.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetAllReports.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllReports.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllReports.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllReports.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetAllReports.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T17:59:09.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HomePage_Layout.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\HomePage_Layout.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\Shared\\HomePage_Layout.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\Shared\\HomePage_Layout.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\Shared\\HomePage_Layout.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAwF8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T06:36:29.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteClient.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteClient.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteClient.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteClient.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteClient.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T08:13:16.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetClient.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetClient.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetClient.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetClient.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetClient.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T08:01:34.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteProject.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteProject.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteProject.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteProject.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\DeleteProject.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T10:15:23.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "GetProjectByID.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetProjectByID.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetProjectByID.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetProjectByID.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetProjectByID.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T09:53:44.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GetProjects.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetProjects.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetProjects.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetProjects.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\AdminPage\\GetProjects.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T08:12:01.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Clients.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\Clients.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\Clients.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\Clients.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\Clients.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:41:01.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Projects.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\Projects.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\Projects.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\Projects.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\Projects.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:55:19.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Models\\Tasks.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Models\\Tasks.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Models\\Tasks.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:50:46.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wBIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:26:59.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminSignUpPage.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\AdminSignUpPage.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\AdminSignUpPage.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\AdminSignUpPage.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\AdminSignUpPage.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAADkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T14:48:02.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\Details.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\Details.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\Details.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\Details.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T12:08:53.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\Delete.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\Delete.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\Delete.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAHEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T11:36:49.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem_WebApplication\\Views\\HomePage\\AboutUs.cshtml",
+              "ToolTip": "D:\\lap\\Bijulal_Lap\\final_project\\FinalProject\\TaskManagementSystem_WebApplication\\TaskManagementSystem_WebApplication\\Views\\HomePage\\AboutUs.cshtml",
+              "RelativeToolTip": "TaskManagementSystem_WebApplication\\Views\\HomePage\\AboutUs.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswBcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T06:54:58.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+﻿@model TaskManagementSystem_WebApplication.Models.ReportDetails
+
+@{
+    ViewBag.Title = "GetReportByID";
+    Layout = "~/Views/Shared/UserPage_Layout.cshtml";
+}
+
+<div class="formcontainer">
+    <h4>Report Details</h4>
+    
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.TaskID)</dt>
+        <dd>@Html.DisplayFor(model => model.TaskID)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.TaskTitle)</dt>
+        <dd>@Html.DisplayFor(model => model.TaskTitle)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.GeneratedAdmin)</dt>
+        <dd>@Html.DisplayFor(model => model.GeneratedAdmin)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.ReportName)</dt>
+        <dd>@Html.DisplayFor(model => model.ReportName)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.GeneratedOn)</dt>
+        <dd>@Html.DisplayFor(model => model.GeneratedOn)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.ReportData)</dt>
+        <dd>@Html.DisplayFor(model => model.ReportData)</dd>
+
+        <!-- Section to display the image or PDF -->
+        <dt>@Html.DisplayNameFor(model => model.ReportImage)</dt>
+        <dd>
+            @if (!string.IsNullOrEmpty(Model.ReportImage))
+            {
+                // Detect if the file is a JPEG image (Base64 starts with "/9j")
+                if (Model.ReportImage.StartsWith("/9j"))
+                {
+                    <img src="data:image/jpeg;base64,@Model.ReportImage" alt="Report Image" style="max-width: 100%; height: auto;" />
+                }
+                // Detect if the file is a PNG image (Base64 starts with "iVBORw0KGgo")
+                else if (Model.ReportImage.StartsWith("iVBORw0KGgo"))
+                {
+                    <img src="data:image/png;base64,@Model.ReportImage" alt="Report Image" style="max-width: 100%; height: auto;" />
+                }
+                // Otherwise, assume it's a PDF
+                else
+                {
+                    <iframe src="data:application/pdf;base64,@Model.ReportImage" width="100%" height="500px"></iframe>
+                }
+            }
+            else
+            {
+                <p>No file available</p>
+            }
+        </dd>
+    </dl>
+</div>

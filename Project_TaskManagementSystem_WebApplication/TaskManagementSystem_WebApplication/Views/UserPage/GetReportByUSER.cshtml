@@ -1,0 +1,54 @@
+﻿@model IEnumerable<TaskManagementSystem_WebApplication.Models.ReportForUser>
+
+@{
+    ViewBag.Title = "GetReportByUSER";
+    Layout = "~/Views/Shared/UserPage_Layout.cshtml";
+}
+<div class="formcontainer">
+    <h2>Reports from Admin</h2>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskTitle)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ReportName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GeneratedOn)
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TaskID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TaskTitle)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReportName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GeneratedOn)
+                </td>
+
+                <td>
+
+                    @Html.ActionLink("Details", "GetReportByID", new { id = item.ReportID }) |
+
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

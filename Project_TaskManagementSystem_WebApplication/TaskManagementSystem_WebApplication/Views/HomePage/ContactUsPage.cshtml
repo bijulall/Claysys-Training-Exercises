@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "ContactUsPage";
+    Layout = "~/Views/Shared/HomePage_Layout.cshtml";
+}
+
+<h1 id="contactUsHeading">Contact us</h1>
+<p id="contactUsIntro">Streamline Your Project ManagementOur task management web application is designed to help you efficiently manage and track project tasks assigned to your team. Whether you’re overseeing multiple projects or ensuring that your team meets deadlines, our platform provides the tools you need to assign tasks, monitor progress, and achieve your goals. From project initiation to completion, keep everything on track with our intuitive interface. If you have any questions, feedback, or need assistance, don’t hesitate to contact us — we're here to support your project management needs.</p>
+<div class="address">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Our Office</h3>
+            <p><strong>Address:</strong> 123 Main Street,Kakkanad,Kerala,India</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Email:</strong> contact@taskhive.com</p>
+        </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15716.41447102162!2d76.35331742513897!3d10.008299322889496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080b62a7688a1d%3A0xea20f6a86d090450!2sInfopark%20Campus%2C%20Kochi%2C%20Kakkanad%2C%20Kerala%20682030!5e0!3m2!1sen!2sin!4v1725458710063!5m2!1sen!2sin" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+<!-- Contact Form -->
+<div class="formcontainer">
+    <div class="row contactform">
+        <div class="col-md-6">
+            <h3>Send Us a Message</h3>
+            <form action="@Url.Action("Contact", "Home")" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" class="form-control" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+</div>

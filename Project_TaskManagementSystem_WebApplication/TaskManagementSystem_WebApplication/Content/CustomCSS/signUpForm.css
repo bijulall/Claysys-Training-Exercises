@@ -1,0 +1,134 @@
+﻿/*styles for  form container*/
+.formcontainer {
+    margin: 10px auto;
+    /* background-color: #f4f6fa; */
+    background-color: rgb(244, 246, 250,.9);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*form styling*/
+#signupForm {
+    display: flex;
+    flex-direction: column;
+}
+/*row section input form*/
+.formSection {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: .5px solid #555;
+    border-radius: 1px;
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+/*Styling for header section*/
+.headerSection {
+    margin-bottom: 10px;
+}
+.inputgroup {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    width: 83%;
+}
+.personalSection {
+    display: flex;
+}
+/*styling form thead labels*/
+.labels {
+    margin: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transition: top 0.2s ease-in-out;
+    background: rgb(244, 246, 250,.9);
+    pointer-events: none;
+}
+.label_select {
+    margin: 20px;
+    box-sizing: border-box;
+    width: 30%;
+}
+/*Styling for the radio buttons*/
+.radioButtons {
+    margin: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0;
+    font-size: 16px;
+}
+/*Styling for gender options*/
+.genderoptions {
+    display: flex;
+}
+.errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+.inputError {
+    border: 2px solid red !important;
+}
+/*Styling for buttons*/
+.buttons {
+    padding: 10px 50px;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 50px;
+}
+.buttons:hover {
+     background: linear-gradient(45deg, #0056b3, #007bff);
+}
+.buttonSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*Styling for gender buttons*/
+.genderButtons {
+    padding: 0 20px;
+}
+/*Styling for success message*/
+.errors {
+    color: red;
+    z-index: 1;
+}
+/* Styling for success message spans  */
+.successSpan {
+    visibility: hidden;
+    margin-left: 10px;
+}
+/* Styling for error message spans */
+
+.errorSpan {
+    visibility: visible;
+    color: red;
+    z-index: 1;
+}
+/* Styling for the submit button when enabled */
+
+#submitButton:enabled {
+    background-color: #cf5f55;
+}

@@ -1,0 +1,51 @@
+﻿@model TaskManagementSystem_WebApplication.Models.Clients
+
+@{
+    ViewBag.Title = "GetClient";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";
+}
+
+
+
+<div class="formcontainer">
+    <h4>Clients</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactMail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactMail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedBy)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ClientID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<TaskManagementSystem_WebApplication.Models.Reports>
+
+@{
+    ViewBag.Title = "GetAllReports";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";
+}
+<div class="mainContent">
+    <p class="createButton">
+        @Html.ActionLink("Generate report", "CreateReport")
+    </p>
+    <h3 class="majorHeading">Reports list</h3>
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskID)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ReportName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GeneratedOn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportData)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TaskID)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReportName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GeneratedOn)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReportData)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "UpdateReport", new { id = item.ReportID }) |
+                    @Html.ActionLink("Details", "GetReport", new { id = item.ReportID }) |
+                    @Html.ActionLink("Delete", "DeleteReport", new { id = item.ReportID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

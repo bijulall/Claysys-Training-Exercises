@@ -1,0 +1,78 @@
+﻿@model TaskManagementSystem_WebApplication.Models.TaskDetails
+
+@{
+    ViewBag.Title = "GetTask";
+    Layout = "~/Views/Shared/AdminPage_Layout.cshtml";  // Keeping the existing layout
+}
+
+<h2>Task Details</h2>
+
+<div class="formcontainer">
+    <h4>Task Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.TaskTitle)</dt>
+        <dd>@Html.DisplayFor(model => model.TaskTitle)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Description)</dt>
+        <dd>@Html.DisplayFor(model => model.Description)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Priority)</dt>
+        <dd>@Html.DisplayFor(model => model.Priority)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.CreatedDate)</dt>
+        <dd>@Html.DisplayFor(model => model.CreatedDate)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.DueDate)</dt>
+        <dd>@Html.DisplayFor(model => model.DueDate)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Status)</dt>
+        <dd>@Html.DisplayFor(model => model.Status)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.ProgressPercentage)</dt>
+        <dd>@Html.DisplayFor(model => model.ProgressPercentage)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.CreatedBy)</dt>
+        <dd>@Html.DisplayFor(model => model.CreatedBy)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.AssignedUser)</dt>
+        <dd>@Html.DisplayFor(model => model.AssignedUser)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.ProjectName)</dt>
+        <dd>@Html.DisplayFor(model => model.ProjectName)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.ClientName)</dt>
+        <dd>@Html.DisplayFor(model => model.ClientName)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Comment)</dt>
+        <dd>@Html.DisplayFor(model => model.Comment)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.TaskFile)</dt>
+        <dd>
+            @if (!string.IsNullOrEmpty(Model.TaskFile))
+            {
+                if (Model.TaskFile.StartsWith("/9j"))
+                {
+                    <img src="data:image/jpeg;base64,@Model.TaskFile" alt="Task File" style="max-width: 100%; height: auto;" />
+                }
+                else if (Model.TaskFile.StartsWith("iVBORw0KGgo"))
+                {
+                    <img src="data:image/png;base64,@Model.TaskFile" alt="Task File" style="max-width: 100%; height: auto;" />
+                }
+                else
+                {
+                    <iframe src="data:application/pdf;base64,@Model.TaskFile" width="100%" height="500px"></iframe>
+                }
+            }
+            else
+            {
+                <p>No file available</p>
+            }
+        </dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TaskID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
